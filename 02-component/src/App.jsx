@@ -1,8 +1,12 @@
 import React from 'react'
+import Card from './Components/Card'
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <Card name='Arpan' age={22} />
+      <Card name='Rajat' age={30} />
+    </>
   )
 }
 

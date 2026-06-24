@@ -109,3 +109,22 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.card {
+  position:relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: auto;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h1 {
+  line-height: 1;
+  font-size: 22px;
+}
